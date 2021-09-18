@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Raw Css  -->
+    <script src="style.css"></script>
+</head>
+<body>
+    <main class="mb-3">
+        <section class="container mt-3">
+            <div class="row gx-lg-5">
+                <div class="col col-lg-6 col-sm-12 ">
+                    <div class="w-sm-100 w-lg-75">
+                        <img class="w-100" src="images/mac.png" alt="">
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-sm-12 ">
+                    <div>
+                        <div>
+                            <div class="mb-5">
+                                <h1>Customize your Blue 24-inch <br>iMac with Apple M1 chip.</h1>
+                                <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Magic Keyboard-US English</p>
+                            </div>
+                            <div class="mb-5">
+                                <h5 class="fw-bold">Memory</h5>
+                                <div>
+                                    <button id="8GB-memory" class="btn btn-outline-dark">8GB unified memory</button>
+                                    <button id="16GB-memory" class="btn btn-outline-dark">16GB unified memory</button>
+                                </div>
+                            </div>
+                            <div class="mb-5">
+                                <h5 class="fw-bold">Storage</h5>
+                                <div>
+                                    <button id="256GB-SSD" class="btn btn-outline-dark">256GB SSD storage</button>
+                                    <button id="512GB-SSD" class="btn btn-outline-dark">512GB SSD storage</button>
+                                    <button id="1TB-SSD" class="btn btn-outline-dark">1TB SSD storage</button>
+                                </div>
+                            </div>
+                            <div class="mb-5">
+                                <h5 class="fw-bold">Choose your delivery option</h5>
+                                <div>
+                                    <button id="free-cost" class="btn btn-outline-dark">Friday, Aug 25 FREE Prime Delivery</button>
+                                    <button id="notFree-cost" class="btn btn-outline-dark">Friday, Aug 21 Delivery charge $20</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                      <th scope="row"></th>
+                                      <td class="fw-bold"  >Best Price</td>
+                                      <td class="fw-bold">$<span id="best-price">1299</span></td>
+        
+                                    </tr>
+                                    <tr>
+                                      <th scope="row"></th>
+                                      <td class="fw-bold">Extra Memory Cost</td>
+                                      <td class="fw-bold">$<span id="memory-cost">0</span></td>
+                                      
+                                    </tr>
+                                    <tr>
+                                      <th scope="row"></th>
+                                      <td class="fw-bold">Extra Storage Cost</td>
+                                      <td class="fw-bold">$<span id="storage-cost">0</span></td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row"></th>
+                                      <td class="fw-bold">Delivery Charge</td>
+                                      <td class="fw-bold">$<sapn id="delivery-cost">0</sapn></td>
+                                    </tr>
+                                    
+                                  </tbody>
+                                  <tfoot>
+                                        <th scope="row"></th>
+                                        <td class="fw-bold">Total Price</td>
+                                        <td class="fw-bold">$<span id="total-price">1299</span></td>
+                                  </tfoot>
+                            </table>
+
+                        </div>
+                        <div>
+                            <h5 class="fw-normal">Add Promo Code</h5>
+                            <div class="row g-1">
+                                
+                                <div class="col-auto">
+                                    <input id="input-field" type="text " class="form-control" >
+                                </div>
+                                <div class="col-auto">
+                                    <button id="promoCode-button" class="btn btn-danger" type="submit">Apply</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    <section class="container">
+        <hr>
+        <div class="d-flex justify-content-center">
+            <h1>Total: $<span id="total-price-bottom">1299</span></h1>
+        </div>
+    </section>
+
+    <!-- project's main js file -->
+    <script src="main.js"></script>
+    <!-- Bootstrap JS CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
